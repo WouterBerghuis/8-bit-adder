@@ -1,0 +1,2 @@
+# ignore all .nfs files (created by mobaxterm when you delete something)
+.nfs*
