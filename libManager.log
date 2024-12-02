@@ -1,0 +1,45 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 08/16/2019 17:05 (sjfhw025) $
+\o Sub version:		sub-version  s053 
+\o Arguments:		-mpssession virtuoso30422 -mpshost es-tahiti.ele.tue.nl 
+\o Working Directory:	es-tahiti.ele.tue.nl:/home/dicd24/dicd24007/8-bit-adder
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/home/dicd24/dicd24007/8-bit-adder/libManager.log".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(8 31 1536 793))
+\o changeWorkingDir("/home/dicd24/dicd24007/8-bit-adder") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "Components"
+\a cdsLibManager->libLineEdit->value = "Components"
+\a cdsLibManager->cellListBox->value = "NAND_gate_tb"
+\a cdsLibManager->cellLineEdit->value = "NAND_gate_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NAND_gate"
+\a cdsLibManager->cellLineEdit->value = "NAND_gate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NAND_gate_tb"
+\a cdsLibManager->cellLineEdit->value = "NAND_gate_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NOR_gate"
+\a cdsLibManager->cellLineEdit->value = "NOR_gate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrResizeWindow(cdsLibManager list(0 0 1536 793))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
