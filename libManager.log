@@ -1,12 +1,12 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 08/16/2019 17:05 (sjfhw025) $
 \o Sub version:		sub-version  s053 
-\o Arguments:		-mpssession virtuoso28441 -mpshost es-tahiti.ele.tue.nl 
+\o Arguments:		-mpssession virtuoso28105 -mpshost es-tahiti.ele.tue.nl 
 \o Working Directory:	es-tahiti.ele.tue.nl:/home/dicd24/dicd24007/8-bit-adder
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/dicd24/dicd24007/8-bit-adder/libManager.log".
 \o Opening libManager window.
-\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
+\a nrResizeWindow(cdsLibManager list(0 0 1536 793))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrResizeWindow(cdsLibManager list(8 31 1536 793))
 \o changeWorkingDir("/home/dicd24/dicd24007/8-bit-adder") unnecessary.
@@ -14,134 +14,144 @@
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrResizeWindow(cdsLibManager list(0 23 1536 793))
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "Adder"
 \a cdsLibManager->libLineEdit->value = "Adder"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_unoptimized"
-\a cdsLibManager->libListBox->value = "Components"
-\a cdsLibManager->libLineEdit->value = "Components"
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Adder"
 \a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
+\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "Group_PG_BK_unoptimized"
+\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_unoptimized"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
+\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Adder"
+\a cdsLibManager->libLineEdit->value = "Adder"
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Adder"
+\a cdsLibManager->libLineEdit->value = "Adder"
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Adder"
+\a cdsLibManager->libLineEdit->value = "Adder"
+\a cdsLibManager->cellListBox->value = "Complete_Adder"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Complete_Adder_optimized"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder_optimized"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Complete_Adder_optimized"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder_optimized"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->cellListBox 1 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "Adder"
-\a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "Adder"
-\a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Adder"
 \a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 0 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Adder"
-\a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellListBox->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
+\a cdsLibManager->cellListBox->value = "Complete_Adder_optimized"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder_optimized"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_unoptimized"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 0 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Adder"
-\a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellListBox->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "Test"
@@ -150,277 +160,15 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 11 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Test"
-\a cdsLibManager->libLineEdit->value = "Test"
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Test"
-\a cdsLibManager->libLineEdit->value = "Test"
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Test"
-\a cdsLibManager->libLineEdit->value = "Test"
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Test"
-\a cdsLibManager->libLineEdit->value = "Test"
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Test"
-\a cdsLibManager->libLineEdit->value = "Test"
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Test"
-\a cdsLibManager->libLineEdit->value = "Test"
-\a cdsLibManager->cellListBox->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "group_optimized_vs_unoptimized"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "Components"
-\a cdsLibManager->libLineEdit->value = "Components"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Grey_Cell_optimized_nand_nor_even"
-\a cdsLibManager->cellLineEdit->value = "Grey_Cell_optimized_nand_nor_even"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a cdsLibManager->cellListBox->value = "NAND_gate"
-\a cdsLibManager->cellLineEdit->value = "NAND_gate"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Grey_Cell_optimized_nand_nor_odd"
-\a cdsLibManager->cellLineEdit->value = "Grey_Cell_optimized_nand_nor_odd"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Components"
-\a cdsLibManager->libLineEdit->value = "Components"
-\a cdsLibManager->cellListBox->value = "Grey_Cell_optimized_nand_nor_odd"
-\a cdsLibManager->cellLineEdit->value = "Grey_Cell_optimized_nand_nor_odd"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "Adder"
 \a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized_row_ending_in_ood"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "Components"
-\a cdsLibManager->libLineEdit->value = "Components"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Black_Cell_optimized_nand_nor_odd"
-\a cdsLibManager->cellLineEdit->value = "Black_Cell_optimized_nand_nor_odd"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Black_Cell_optimized_nand_nor_even"
-\a cdsLibManager->cellLineEdit->value = "Black_Cell_optimized_nand_nor_even"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->cellLineEdit->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "double_inverter"
-\a cdsLibManager->cellLineEdit->value = "double_inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "Complete_Adder_optimized"
+\a cdsLibManager->cellLineEdit->value = "Complete_Adder_optimized"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(0 0 1536 793))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 1536 793))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a _lmgrCloseIconify("cdsLibManager" 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
-\a cdsLibManager->libListBox->value = "Adder"
-\a cdsLibManager->libLineEdit->value = "Adder"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Complete_Adder"
-\a cdsLibManager->cellLineEdit->value = "Complete_Adder"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_optimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_optimized"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Group_PG_BK_unoptimized"
-\a cdsLibManager->cellLineEdit->value = "Group_PG_BK_unoptimized"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Random_bit_stream"
-\a cdsLibManager->cellLineEdit->value = "Random_bit_stream"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Sum_Logic"
-\a cdsLibManager->cellLineEdit->value = "Sum_Logic"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)
