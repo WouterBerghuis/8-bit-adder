@@ -1,0 +1,104 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 08/16/2019 17:05 (sjfhw025) $
+\o Sub version:		sub-version  s053 
+\o Arguments:		-mpssession virtuoso4530 -mpshost es-tahiti.ele.tue.nl 
+\o Working Directory:	es-tahiti.ele.tue.nl:/home/dicd24/dicd24007/8-bit-adder
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/home/dicd24/dicd24007/8-bit-adder/libManager.log".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(8 31 1536 793))
+\o changeWorkingDir("/home/dicd24/dicd24007/8-bit-adder") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->cellListBox->value = "critical_path_group_pg_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_group_pg_tb"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 13 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->cellListBox->value = "critical_path_group_pg_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_group_pg_tb"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->cellListBox->value = "critical_path_group_pg_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_group_pg_tb"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "critical_path_complete_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_complete_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 12 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->cellListBox->value = "critical_path_complete_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_complete_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 1536 793))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->cellListBox->value = "critical_path_complete_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_complete_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->cellListBox->value = "critical_path_complete_tb"
+\a cdsLibManager->cellLineEdit->value = "critical_path_complete_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(0 23 1536 793))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

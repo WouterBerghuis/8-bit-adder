@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("Test" "critical_path_group_pg_tb" "schematic" "spectre")
+descriptionText = "None"
