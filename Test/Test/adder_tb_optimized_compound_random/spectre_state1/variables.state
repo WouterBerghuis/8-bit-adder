@@ -1,0 +1,175 @@
+savedComponent = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19)
+(unless tmp1
+tmp1 = make_sevVariableStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "wUnitInv"
+tmp1->expression = "180n"
+tmp1->index = 1
+(unless tmp2
+tmp2 = make_sevVariableStruct()
+)
+(unless tmp2
+tmp2 = (ncons nil)
+)
+tmp2->name = "wUnitNAND"
+tmp2->expression = "180n"
+tmp2->index = 2
+(unless tmp3
+tmp3 = make_sevVariableStruct()
+)
+(unless tmp3
+tmp3 = (ncons nil)
+)
+tmp3->name = "a"
+tmp3->expression = "124213"
+tmp3->index = 3
+(unless tmp4
+tmp4 = make_sevVariableStruct()
+)
+(unless tmp4
+tmp4 = (ncons nil)
+)
+tmp4->name = "b"
+tmp4->expression = "35232"
+tmp4->index = 4
+(unless tmp5
+tmp5 = make_sevVariableStruct()
+)
+(unless tmp5
+tmp5 = (ncons nil)
+)
+tmp5->name = "c"
+tmp5->expression = "632"
+tmp5->index = 5
+(unless tmp6
+tmp6 = make_sevVariableStruct()
+)
+(unless tmp6
+tmp6 = (ncons nil)
+)
+tmp6->name = "d"
+tmp6->expression = "32546"
+tmp6->index = 6
+(unless tmp7
+tmp7 = make_sevVariableStruct()
+)
+(unless tmp7
+tmp7 = (ncons nil)
+)
+tmp7->name = "e"
+tmp7->expression = "6745"
+tmp7->index = 7
+(unless tmp8
+tmp8 = make_sevVariableStruct()
+)
+(unless tmp8
+tmp8 = (ncons nil)
+)
+tmp8->name = "f"
+tmp8->expression = "87654323"
+tmp8->index = 8
+(unless tmp9
+tmp9 = make_sevVariableStruct()
+)
+(unless tmp9
+tmp9 = (ncons nil)
+)
+tmp9->name = "g"
+tmp9->expression = "547237"
+tmp9->index = 9
+(unless tmp10
+tmp10 = make_sevVariableStruct()
+)
+(unless tmp10
+tmp10 = (ncons nil)
+)
+tmp10->name = "h"
+tmp10->expression = "6843432"
+tmp10->index = 10
+(unless tmp11
+tmp11 = make_sevVariableStruct()
+)
+(unless tmp11
+tmp11 = (ncons nil)
+)
+tmp11->name = "i"
+tmp11->expression = "231"
+tmp11->index = 11
+(unless tmp12
+tmp12 = make_sevVariableStruct()
+)
+(unless tmp12
+tmp12 = (ncons nil)
+)
+tmp12->name = "j"
+tmp12->expression = "35342"
+tmp12->index = 12
+(unless tmp13
+tmp13 = make_sevVariableStruct()
+)
+(unless tmp13
+tmp13 = (ncons nil)
+)
+tmp13->name = "k"
+tmp13->expression = "57434"
+tmp13->index = 13
+(unless tmp14
+tmp14 = make_sevVariableStruct()
+)
+(unless tmp14
+tmp14 = (ncons nil)
+)
+tmp14->name = "l"
+tmp14->expression = "676564"
+tmp14->index = 14
+(unless tmp15
+tmp15 = make_sevVariableStruct()
+)
+(unless tmp15
+tmp15 = (ncons nil)
+)
+tmp15->name = "o"
+tmp15->expression = "43623"
+tmp15->index = 15
+(unless tmp16
+tmp16 = make_sevVariableStruct()
+)
+(unless tmp16
+tmp16 = (ncons nil)
+)
+tmp16->name = "q"
+tmp16->expression = "588654"
+tmp16->index = 16
+(unless tmp17
+tmp17 = make_sevVariableStruct()
+)
+(unless tmp17
+tmp17 = (ncons nil)
+)
+tmp17->name = "rty"
+tmp17->expression = "23521"
+tmp17->index = 17
+(unless tmp18
+tmp18 = make_sevVariableStruct()
+)
+(unless tmp18
+tmp18 = (ncons nil)
+)
+tmp18->name = "uio"
+tmp18->expression = "123213"
+tmp18->index = 18
+(unless tmp19
+tmp19 = make_sevVariableStruct()
+)
+(unless tmp19
+tmp19 = (ncons nil)
+)
+tmp19->name = "vbn"
+tmp19->expression = "4634352"
+tmp19->index = 19
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19)
+)
