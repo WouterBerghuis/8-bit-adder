@@ -11,7 +11,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/CIN"
+tmp1->signal = "/Cin"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -55,7 +55,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/CIN"
+tmp1->uniqueName = "/Cin"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -71,7 +71,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A0"
+tmp1->signal = "/A<0>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -115,7 +115,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A0"
+tmp1->uniqueName = "/A<0>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -131,7 +131,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A1"
+tmp1->signal = "/A<1>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -175,7 +175,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A1"
+tmp1->uniqueName = "/A<1>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -191,7 +191,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A2"
+tmp1->signal = "/A<2>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -235,7 +235,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A2"
+tmp1->uniqueName = "/A<2>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -251,7 +251,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A3"
+tmp1->signal = "/A<3>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -295,7 +295,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A3"
+tmp1->uniqueName = "/A<3>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -311,7 +311,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A4"
+tmp1->signal = "/A<4>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -355,7 +355,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A4"
+tmp1->uniqueName = "/A<4>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -371,7 +371,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A5"
+tmp1->signal = "/A<5>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -415,7 +415,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A5"
+tmp1->uniqueName = "/A<5>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -431,7 +431,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A6"
+tmp1->signal = "/A<6>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -475,7 +475,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A6"
+tmp1->uniqueName = "/A<6>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -491,7 +491,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B0"
+tmp1->signal = "/A<7>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -535,7 +535,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B0"
+tmp1->uniqueName = "/A<7>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -551,7 +551,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/A7"
+tmp1->signal = "/B<0>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -595,7 +595,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/A7"
+tmp1->uniqueName = "/B<0>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -611,7 +611,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B1"
+tmp1->signal = "/B<1>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -655,7 +655,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B1"
+tmp1->uniqueName = "/B<1>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -671,7 +671,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B2"
+tmp1->signal = "/B<2>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -715,7 +715,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B2"
+tmp1->uniqueName = "/B<2>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -731,7 +731,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B3"
+tmp1->signal = "/B<3>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -775,7 +775,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B3"
+tmp1->uniqueName = "/B<3>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -791,7 +791,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B4"
+tmp1->signal = "/B<4>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -835,7 +835,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B4"
+tmp1->uniqueName = "/B<4>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -851,7 +851,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B5"
+tmp1->signal = "/B<5>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -895,7 +895,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B5"
+tmp1->uniqueName = "/B<5>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -911,7 +911,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B6"
+tmp1->signal = "/B<6>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -955,7 +955,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B6"
+tmp1->uniqueName = "/B<6>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -971,7 +971,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/B7"
+tmp1->signal = "/B<7>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1015,7 +1015,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/B7"
+tmp1->uniqueName = "/B<7>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1031,7 +1031,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S0"
+tmp1->signal = "/S<0>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1075,7 +1075,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S0"
+tmp1->uniqueName = "/S<0>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1091,7 +1091,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S1"
+tmp1->signal = "/S<1>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1135,7 +1135,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S1"
+tmp1->uniqueName = "/S<1>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1151,7 +1151,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S2"
+tmp1->signal = "/S<2>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1195,7 +1195,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S2"
+tmp1->uniqueName = "/S<2>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1211,7 +1211,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S3"
+tmp1->signal = "/S<3>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1255,7 +1255,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S3"
+tmp1->uniqueName = "/S<3>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1271,7 +1271,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S4"
+tmp1->signal = "/S<4>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1315,7 +1315,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S4"
+tmp1->uniqueName = "/S<4>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1331,7 +1331,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S5"
+tmp1->signal = "/S<5>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1375,7 +1375,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S5"
+tmp1->uniqueName = "/S<5>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1391,7 +1391,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S6"
+tmp1->signal = "/S<6>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1435,7 +1435,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S6"
+tmp1->uniqueName = "/S<6>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1451,7 +1451,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/S7"
+tmp1->signal = "/S<7>"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1495,7 +1495,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/S7"
+tmp1->uniqueName = "/S<7>"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
@@ -1511,7 +1511,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/COUT"
+tmp1->signal = "/Cout"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -1555,7 +1555,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "/COUT"
+tmp1->uniqueName = "/Cout"
 list(tmp1)
 )
 _outputList = nconc( _outputList savedComponent) 
