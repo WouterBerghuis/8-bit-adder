@@ -1,0 +1,29 @@
+//
+//  CalibreView Settings:
+//	  Netlist File: /home/dicd24/dicd24007/pex/NOR_gate.pex.netlist
+//	  Output Library: Components
+//	  Schematic Library: Components
+//	  Cellmap File: ./calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: schematic
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Create Terminals: Create all terminals
+//	  Reset Properties: ("m=1")
+//	  Generate SPECTRE Netlist: off
+//
+
+//  64 bit virtual addressing enabled
+//
+//         This software is in pre-production form and is considered to be
+//         beta code that is subject to the terms of the current Mentor
+//         Graphics End-User License Agreement or your signed agreement
+//         with Mentor Graphics that contains beta terms, whichever applies.
+//
+//  Running on Linux es-tahiti.ele.tue.nl 3.10.0-1160.49.1.el7.x86_64 #1 SMP Tue Nov 30 15:51:32 UTC 2021 x86_64
+INFO: Parsing command line arguments...
+INFO: License checked out successfully for calibreqdb.
+INFO: Parsing cellmap file...
+INFO: Executing back annotation...
+ERROR: The library Components can not be found.
