@@ -1,6 +1,6 @@
 //
 //  CalibreView Settings:
-//	  Netlist File: /home/dicd24/dicd24007/pex/NOR_gate.pex.netlist
+//	  Netlist File: /home/dicd24/dicd24007/pex/Grey_Cell.pex.netlist
 //	  Output Library: Components
 //	  Schematic Library: Components
 //	  Cellmap File: ./calview.cellmap
@@ -13,7 +13,6 @@
 //	  Reset Properties: ("m=1")
 //	  Generate SPECTRE Netlist: off
 //
-
 //  64 bit virtual addressing enabled
 //
 //         This software is in pre-production form and is considered to be
