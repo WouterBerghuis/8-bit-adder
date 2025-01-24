@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dicd24007
+HostName                       es-tahiti.ele.tue.nl
+ProcessIdentifier              11603
+ProcessCreationTime_UTC        1737707065
+ProcessCreationTime_Readable   Fri Jan 24 09:24:25 2025 CET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/dicd24/dicd24007/8-bit-adder/Adder/Adder/Sum_Logic_with_large_OUTPUT_Cells/layout/layout.oa.cdslck
+TimeEditLocked                 Fri Jan 24 09:25:31 2025 CET
